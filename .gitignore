@@ -1,0 +1,23 @@
+# Ignore everything inside demo_license_web
+/Java RESTful application/demo_license_web/*
+!/Java RESTful application/demo_license_web/src/
+!/Java RESTful application/demo_license_web/src/**
+
+# Ignore build files, IDE settings, helpers
+/Java RESTful application/demo_license_web/target/
+/Java RESTful application/demo_license_web/.settings/
+/Java RESTful application/demo_license_web/.classpath
+/Java RESTful application/demo_license_web/.project
+/Java RESTful application/demo_license_web/.idea/
+/Java RESTful application/demo_license_web/.vscode/
+/Java RESTful application/demo_license_web/build/
+/Java RESTful application/demo_license_web/.mvn/
+/Java RESTful application/demo_license_web/mvnw
+/Java RESTful application/demo_license_web/mvnw.cmd
+/Java RESTful application/demo_license_web/pom.xml
+/Java RESTful application/demo_license_web/HELP.md
+/Java RESTful application/demo_license_web/folder-structure.txt
+/Java RESTful application/demo_license_web/links.txt
+
+# Ignore sibling Word doc
+/Java RESTful application/WordDocument.docx
