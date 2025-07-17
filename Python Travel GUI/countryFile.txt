@@ -1,0 +1,5 @@
+Ireland:Dublins:The Spire, TUS Athlone, Cliffs of Moher, The arcade:4260:911:True:True:5:27:4050
+France:Paris:The Eiffel Tower, The Louvre:5248:255435:False:True:0:0:0
+Lithuania:Vilnus:The Military, Mylkolos, Veonirana, Palanga Beach:3386:358:True:False:2:7:1050
+Russia:Moscow:Saint Petersburg, Chapel Ninth, Fyodor Himself:996854:4346676:False:False:0:0:0
+Uzbekistaner:Tashkent:Samarkand, Bukhara, Khiva, Fergana Valley:0:0:True:False:567:54654:0
