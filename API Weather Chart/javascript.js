@@ -139,7 +139,7 @@ $("#searchBar").addEventListener("input", (event) => {
 
 // fetch the country data when the page loads
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("https://restcountries.com/v3.1/all") // fetch the data from the API
+    fetch("https://restcountries.com/v3.1/all?fields=name,capital,region,languages,currencies,population,latlng,flags") // fetch the data from the API
         .then((response) => response.json()) // parsing the JSON response
         .then((data) => {
             countriesData = data; // store the data globally for use in filtering and displaying
