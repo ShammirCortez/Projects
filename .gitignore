@@ -21,3 +21,6 @@
 
 # Ignore sibling Word doc
 /Java RESTful application/WordDocument.docx
+
+# Ignore large python file because of its GUI for linguist
+/Python Travel GUI/sem2Proj.py
