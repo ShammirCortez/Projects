@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Info and Weather</title>
+    <script src="javascript.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        #searchBar {
+            margin-bottom: 20px;
+        }
+
+        table {
+            margin-bottom: 20px;
+        }
+
+        table th {
+            background-color: #1f70c7;
+            color: white;
+        }
+
+        canvas {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body class="w3-center">
+
+    <h1 class="w3-text-blue">Country Info and Weather</h1>
+
+    <input type="text" id="searchBar" class="w3-input w3-border w3-round-large" placeholder="Search for a country..." />
+
+    <div class="w3-responsive">
+        <table id="countriesTable" class="w3-table w3-bordered w3-striped w3-white w3-card-4">
+        </table>
+    </div>
+
+    <h2 class="w3-text-blue">Weather Chart</h2>
+    <canvas id="myChart" class="w3-card-4"></canvas>
+
+</body>
+
+</html>
